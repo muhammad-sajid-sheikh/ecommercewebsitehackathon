@@ -13,7 +13,7 @@ function Range(){
             <div>
             <div className="pt-16 pb-16">
                     <div className="w-[80%] mx-auto mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 items-center">
-                    {rangeData.map((range,i) =>{
+                    {rangeData.map((range) =>{
                     return(
                     <div key={range.id} className="bg-white p-6 rounded-sm">
                         
